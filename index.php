@@ -7,19 +7,14 @@ session_start();
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="google-site-verification" content="D5zk2BJy5ivyKDKm7PxBPGlfO8Z6YEp_58z8yqJ1n0M" />
 
 
-  <title>Srisaidecors</title>
-  <meta content="We provide best & cheap price of all category Fabrication Service and Roofing Shed Repairing Service" name="description">
-  <meta content="Roofing Shed & PVC fabrication service" name="keywords">
+  <title>Sri Sai Decors - Best Roofing and fabrication service</title>
+  <meta content="We provide best & cheap price of all category Fabrication Service and Roofing Shed Repairing Service.It is known to provide top service in the following categories: False Ceiling Contractors, Fabricators, Roofing Contractors, Shed Fabricators, Roofing Sheet Manufacturers, Furniture Wholesalers, PVC Door Wholesalers, Door Manufacturers." name="description">
+  <meta content="Best Roofing  service & PVC fabrication service in chennai" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/sai.jpg" rel="icon">
-
-
-  <!-- Google Fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
 
   <!-- Vendor CSS Files -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -31,8 +26,10 @@ session_start();
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
+  <!-- ------------ boxicon ------------- -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 
   <!-- <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LhuZcoQyAdg-UTemJpcveQM1xazGtm-Grc0SvYMPVVPODw4Bzzca4aG_TW2S-Pc4r8XtfGq18dJAEs-oZ2B2HvCeqt4VJzXX_ivdVET7ykkUHonH7_tKXh5AK-8eLhAG8c2H561Ilo8dNobae4rQ7y0NqzVBD3ZCzGf2jF50M3rGOxMpN53EqTT94wkXlvrvB74HcZoEJWeWmCYFQ9UQsGf0ifbJ6z_U7supL98seAs5UoNGYUoP38dLwHAl2Rc_j0UifUFTzC-H4luC9YaVAGnu3mUKhpG5IOsVTMPWK2kyESxtcpsfNEmj4KERNhIq" charset="UTF-8"></script> -->
