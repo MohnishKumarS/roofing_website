@@ -9,8 +9,9 @@ session_start();
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 
-  <title>Sri Sai Decors - Best Roofing and fabrication service</title>
-  <meta content="We provide best & cheap price of all category Fabrication Service and Roofing Shed Repairing Service.It is known to provide top service in the following categories: False Ceiling Contractors, Fabricators, Roofing Contractors, Shed Fabricators, Roofing Sheet Manufacturers, Furniture Wholesalers, PVC Door Wholesalers, Door Manufacturers." name="description">
+  <title>Sri Sai Decors - Best Roofing Contractors in chennai </title>
+  <meta content="Trust our expert team to deliver reliable and efficient roofing services in chennai.
+  It is known to provide top service in the following categories: False Ceiling Contractors, Fabricators, Roofing Contractors, Shed Fabricators, Roofing Sheet Manufacturers, Furniture Wholesalers, PVC Door Wholesalers, Door Manufacturers." name="description">
   <meta content="Best Roofing  service & PVC fabrication service in chennai" name="keywords">
 
   <!-- Favicons -->
@@ -85,7 +86,7 @@ session_start();
                 <a href="#">Galvanised steel sheet </a>
                 <a href="#">Polyester painted sheet </a>
                 <a href="#">Polyvinyl Chloride (PVC) Plastisol</a>
-                <a href="#">Bitumen sheets</a>
+                <!-- <a href="#">Bitumen sheets</a> -->
               </li>
               <li>
                 <strong>Others</strong>
@@ -139,7 +140,16 @@ session_start();
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
-              <?php if(isset($_SESSION['status'])){ echo $_SESSION['status']; } ?>
+            <?php if(isset($_SESSION['status']))
+                            { 
+                                echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>Success!</strong> '.$_SESSION['status'].'
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                              </div>'; 
+
+                              unset($_SESSION['status']);
+                            }
+                             ?>
               <h3>Who we are </h3>
               <p>
                 In <strong>Srisaidecors & Enterprises</strong> we focus on meeting the needs of our worldwide customers
@@ -216,7 +226,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s1.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>All Roofing Contractors</a></h4>
+              <h1 class="title"><a>All Roofing Contractors</a></h1>
               <p class="description"> Roofers replace, repair, and install the roofs of buildings, using a variety of
                 materials, including shingles, bitumen, and metal.</p>
             </div>
@@ -228,7 +238,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s2.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>Factory Shed Fabricators</a></h4>
+              <h1 class="title"><a>Factory Shed Fabricators</a></h1>
               <p class="description"> They function in many ways – as factory sheds, warehouses, agriculture buildings,
                 poultry sheds, and so on.</p>
             </div>
@@ -240,7 +250,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s4.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>House Terrace Work</a></h4>
+              <h1 class="title"><a>House Terrace Work</a></h1>
               <p class="description">The process of covering an outdoor space or patio roof with roofing material </p>
             </div>
           </div>
@@ -251,7 +261,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s5.webp" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>PVC Door Wholesale</a></h4>
+              <h1 class="title"><a>PVC Door Wholesale</a></h1>
               <p class="description">It contains a plasticizer which makes the material soft and flexible. As compared
                 to traditional wooden doors.</p>
             </div>
@@ -263,7 +273,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s6.webp" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>PVC Partition Cupboard</a></h4>
+              <h1 class="title"><a>PVC Partition Cupboard</a></h1>
               <p class="description">It has very low maintenance and easy to install. It is fire retardant and highly
                 durable as much as 100 years.</p>
             </div>
@@ -275,7 +285,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s13.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>Aluminium Partition Fabrication</a></h4>
+              <h1 class="title"><a>Aluminium Partition Fabrication</a></h1>
               <p class="description">Aluminum partition using aluminum alloy frame to be adornment and fixed material,
                 the whole glass (monolayer or double layer)</p>
             </div>
@@ -287,7 +297,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s9.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>False Ceiling</a></h4>
+              <h1 class="title"><a>False Ceiling</a></h1>
               <p class="description">A false ceiling is a fitted ceiling that hangs below the original ceiling of a room
                 or home.</p>
             </div>
@@ -299,7 +309,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s10.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>Tensile Membrane Sheets</a></h4>
+              <h1 class="title"><a>Tensile Membrane Sheets</a></h1>
               <p class="description">Fiber roofing sheets are popularly used for residential roofing due to their
                 lightweight and durable nature</p>
             </div>
@@ -311,7 +321,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s16.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>Folding Arm Awning</a></h4>
+              <h1 class="title"><a>Folding Arm Awning</a></h1>
               <p class="description">They are a modern style of awning that offers sun protection over large areas of space.</p>
             </div>
           </div>
@@ -322,7 +332,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s14.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>Vinyl Wood Flooring</a></h4>
+              <h1 class="title"><a>Vinyl Wood Flooring</a></h1>
               <p class="description">It is durable and long-lasting option for your home.With proper care and maintenance, it can last up to 20 years or more.</p>
             </div>
           </div>
@@ -333,7 +343,7 @@ session_start();
               <div class="service-img">
                 <img src="assets/img/service/s12.jpg" alt="" class="img-fluid">
               </div>
-              <h4 class="title"><a>Wall Panel</a></h4>
+              <h1 class="title"><a>Wall Panel</a></h1>
               <p class="description">single piece of material, usually flat and cut into a rectangular shape and exposed
                 covering for a wall.</p>
             </div>
@@ -370,6 +380,7 @@ session_start();
       .toroof .card-title {
         font-weight: 700;
         margin-top: 10px;
+        font-size:1.2rem;
       }
     </style>
     <section class="toroof">
@@ -387,7 +398,7 @@ session_start();
             <div class="card">
               <img src="assets/img/roof/ro1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Corrugated roofing sheet</h5>
+                <h1 class="card-title">Corrugated roofing sheet</h1>
                 <p class="card-text">Corrugated sheets have a UV Protection layer, which ensures they don't go brittle
                   and provide superior light transmission and unrivalled clarity for many years.</p>
               </div>
@@ -397,7 +408,7 @@ session_start();
             <div class="card">
               <img src="assets/img/roof/ro3.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Polycarbonate Roofing Sheet</h5>
+                <h1 class="card-title">Polycarbonate Roofing Sheet</h1>
                 <p class="card-text">Polycarbonate is a very strong and resilient thermoplastic material. Polycarbonate
                   is also very lightweight and capable of withstanding extreme temperatures, either hot or cold.</p>
               </div>
@@ -407,7 +418,7 @@ session_start();
             <div class="card">
               <img src="assets/img/roof/ro6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Fiber Reinforced Plastic Roofing</h5>
+                <h1 class="card-title">Fiber Reinforced Plastic Roofing</h1>
                 <p class="card-text">FRP roof is the more strengthened, safty, and more econimal greenhouse panel with
                   the properties of waterproof, good light ...</p>
               </div>
@@ -417,7 +428,7 @@ session_start();
             <div class="card">
               <img src="assets/img/roof/ro2.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Polyvinyl Chloride (PVC) Roofing</h5>
+                <h1 class="card-title">Polyvinyl Chloride (PVC) Roofing</h1>
                 <p class="card-text">PVC roofing is a great option for those who are looking for an energy-efficient and
                   low-maintenance roofing solution. PVC single ply membranes have a high reflectivity index, meaning
                   they reflect most of the sun's heat and UV radiation.</p>
@@ -428,7 +439,7 @@ session_start();
             <div class="card">
               <img src="assets/img/roof/ro8.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Metal Roofing Sheet</h5>
+                <h1 class="card-title">Metal Roofing Sheet</h1>
                 <p class="card-text">Aluminum has much better corrosion resistance than steel products, especially in
                   harsh coastal environments where saltwater can wreak havoc on a metal roofing system.</p>
               </div>
@@ -438,7 +449,7 @@ session_start();
             <div class="card">
               <img src="assets/img/roof/gr22.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Plastic Roofing Sheet</h5>
+                <h1 class="card-title">Plastic Roofing Sheet</h1>
                 <p class="card-text">Plastic sheet is the least preferred roofing option available in the market. Being
                   less durable, they are suitable only for the construction of garden sheds and temporary structures.
                 </p>
@@ -449,7 +460,7 @@ session_start();
             <div class="card">
               <img src="assets/img/roof/r11.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Membrane Tensile Roofing</h5>
+                <h1 class="card-title">Membrane Tensile Roofing</h1>
                 <p class="card-text"> Tensile membrane structures may also be used as complete buildings, with a few
                   common applications being sports facilities, warehousing and storage buildings, and exhibition venues.
                 </p>
@@ -460,7 +471,7 @@ session_start();
             <div class="card">
               <img src="assets/img/roof/s17.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Folding Arm Roofing</h5>
+                <h1 class="card-title">Folding Arm Roofing</h1>
                 <p class="card-text"> We bring forth our vast industrial experience and expertise in this business, involved in trading and wholesaling a quality range of Folding Arm Awning. This product has good appearance.
                 </p>
               </div>
@@ -806,7 +817,7 @@ session_start();
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+91 9841027136</p>
+              <p>+91 9444326078</p>
               <p>+91 8925774974</p>
             </div>
           </div>
@@ -897,7 +908,7 @@ session_start();
                 18B, Muslim street, kundrathur
                 Landmark:- opposite to thirunageswaram temple kulam, <br>
                 Chennai - 600069<br><br>
-                <strong>Phone:</strong> +91 9841027136<br>
+                <strong>Phone:</strong> +91 9444326078<br>
                 <strong>Phone:</strong> +91 8925774974<br>
                 <strong>Email:</strong> sailoge786@gmail.com<br>
               </p>

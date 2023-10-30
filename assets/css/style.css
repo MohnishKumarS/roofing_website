@@ -231,6 +231,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   display: flex;
+  flex-wrap: wrap;
   transition: 0.3s;
   border-radius: 4px;
   z-index: 99;
@@ -243,6 +244,7 @@ h6 {
 .navbar .megamenu ul li strong {
   padding: 10px 0 10px 20px;
   display: block;
+  color: #67b0d1;
 }
 
 .navbar .megamenu ul li a,
