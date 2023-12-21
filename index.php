@@ -9,11 +9,42 @@ session_start();
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 
-  <title>Sri Sai Decors - Best Roofing Contractors in chennai </title>
-  <meta content="Trust our expert team to deliver reliable and efficient roofing services in chennai.
+  <title>Sri Sai Decors | Best Roofing Contractors & Fabricators services | chennai </title>
+  <meta content="Sri Sai Decors in Chennai is one of the leading businesses in the Roofing Contractors in chennai.Experience top-quality roofing solutions with Srisaidecors.
   It is known to provide top service in the following categories: False Ceiling Contractors, Fabricators, Roofing Contractors, Shed Fabricators, Roofing Sheet Manufacturers, Furniture Wholesalers, PVC Door Wholesalers, Door Manufacturers." name="description">
-  <meta content="Best Roofing  service & PVC fabrication service in chennai" name="keywords">
+  <meta content="Best Roofing  service & PVC fabrication service in chennai Roofing Service,
+Roof Installation,
+Roof Repair,
+Roof Maintenance,
+Professional Roofers,
+Reliable Roofing Company,
+Roof Inspection,
+Durable Roof Solutions" name="keywords">
 
+  <link rel="canonical" href="https://srisaidecors.com/">
+  <meta name="robots" content="index, follow, all">
+  <meta name="googlebot" content="index, follow">
+  <meta name="coverage" content="India">
+  <meta name="distribution" content="Global">
+  <meta name="audience" content="all">
+  <meta name="document-type" content="Public">
+  <meta name="language" content="English">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="copyright" content="© Copyright Srisaidecors.com. All Rights Reserved">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://srisaidecors.com/" />
+  <meta property="og:title" content="Best Roofing Contractors in Chennai " />
+  <meta property="og:description" content="Best Roofing Service in Chennai" />
+  <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://srisaidecors.com/" />
+  <meta property="twitter:title" content="Best Quality Roofing Contractors in Chennai " />
+  <meta property="twitter:description" content="Best Roofing Service in Chennai" />
+  <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
   <!-- Favicons -->
   <link href="assets/img/sai.jpg" rel="icon">
 
@@ -140,16 +171,15 @@ session_start();
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
-            <?php if(isset($_SESSION['status']))
-                            { 
-                                echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
-                                <strong>Success!</strong> '.$_SESSION['status'].'
+              <?php if (isset($_SESSION['status'])) {
+                echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>Success!</strong> ' . $_SESSION['status'] . '
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                              </div>'; 
+                              </div>';
 
-                              unset($_SESSION['status']);
-                            }
-                             ?>
+                unset($_SESSION['status']);
+              }
+              ?>
               <h3>Who we are </h3>
               <p>
                 In <strong>Srisaidecors & Enterprises</strong> we focus on meeting the needs of our worldwide customers
@@ -380,7 +410,7 @@ session_start();
       .toroof .card-title {
         font-weight: 700;
         margin-top: 10px;
-        font-size:1.2rem;
+        font-size: 1.2rem;
       }
     </style>
     <section class="toroof">
@@ -679,9 +709,9 @@ session_start();
                 <h4>IT professional</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
