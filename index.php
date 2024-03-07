@@ -46,7 +46,7 @@ Durable Roof Solutions" name="keywords">
   <meta property="twitter:description" content="Best Roofing Service in Chennai" />
   <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
   <!-- Favicons -->
-  <link href="assets/img/sai.jpg" rel="icon">
+  <link href="assets/img/icon.svg" rel="icon" sizes="15x15">
 
   <!-- Vendor CSS Files -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -74,9 +74,11 @@ Durable Roof Solutions" name="keywords">
     <div class="container d-flex align-items-center justify-content-between position-relative">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>Sri Sai Decors</span></a></h1>
+        <!-- <h1 class="text-light"><a href="index.html"><span>Sri Sai Decors</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="index.php">
+          <img src="assets/img/logo1.svg" alt="" width="150px" height="100px">
+        </a>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -107,37 +109,37 @@ Durable Roof Solutions" name="keywords">
             <ul>
               <li>
                 <strong>Roofing types</strong>
-                <a href="#">Corrugated Roofing</a>
-                <a href="#">Aluminum Roofing Sheet</a>
-                <a href="#">Polycarbonate Roofing</a>
-                <a href="#">Bamboo Roofing Sheet</a>
+                <a href="javascript:void(0)">Corrugated Roofing</a>
+                <a href="javascript:void(0)">Aluminum Roofing Sheet</a>
+                <a href="javascript:void(0)">Polycarbonate Roofing</a>
+                <a href="javascript:void(0)">Bamboo Roofing Sheet</a>
               </li>
               <li>
                 <strong>Corrugated Roofing</strong>
-                <a href="#">Galvanised steel sheet </a>
-                <a href="#">Polyester painted sheet </a>
-                <a href="#">Polyvinyl Chloride (PVC) Plastisol</a>
-                <!-- <a href="#">Bitumen sheets</a> -->
+                <a href="javascript:void(0)">Galvanised steel sheet </a>
+                <a href="javascript:void(0)">Polyester painted sheet </a>
+                <a href="javascript:void(0)">Polyvinyl Chloride (PVC) Plastisol</a>
+                <!-- <a href="javascript:void(0)">Bitumen sheets</a> -->
               </li>
               <li>
                 <strong>Others</strong>
-                <a href="#">Plastic Roofing Sheet</a>
-                <a href="#">Fabrication Service</a>
-                <a href="#">Tensile Membrane Structure</a>
-                <a href="#">Vinyl Wood Flooring</a>
+                <a href="javascript:void(0)">Plastic Roofing Sheet</a>
+                <a href="javascript:void(0)">Fabrication Service</a>
+                <a href="javascript:void(0)">Tensile Membrane Structure</a>
+                <a href="javascript:void(0)">Vinyl Wood Flooring</a>
               </li>
               <li>
                 <strong>Sheds</strong>
-                <a href="#">Terrace shed</a>
-                <a href="#">Factory & Industrial shed</a>
-                <a href="#">Godown & Carparking shed</a>
-                <a href="#">Goat & Diary farm shed</a>
+                <a href="javascript:void(0)">Terrace shed</a>
+                <a href="javascript:void(0)">Factory & Industrial shed</a>
+                <a href="javascript:void(0)">Godown & Carparking shed</a>
+                <a href="javascript:void(0)">Goat & Diary farm shed</a>
               </li>
               <li>
                 <strong>Doors</strong>
-                <a href="#">PVC partition cupboard</a>
-                <a href="#">PVC Bathroom door</a>
-                <a href="#">Aluminium Partition & Fabrication</a>
+                <a href="javascript:void(0)">PVC partition cupboard</a>
+                <a href="javascript:void(0)">PVC Bathroom door</a>
+                <a href="javascript:void(0)">Aluminium Partition & Fabrication</a>
               </li>
             </ul>
           </li>
@@ -156,7 +158,7 @@ Durable Roof Solutions" name="keywords">
 
     <div class="hero-container" data-aos="fade-up">
       <h1>Welcome to Srisaidecors</h1>
-      <h2>Intelligent Choice for Your Residential Roofing solutions & services </h2>
+      <h2>A smart Choice for Your Residential Roofing solutions & services </h2>
       <h2>Get Your Roofing Project Started Today!</h2>
       <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
@@ -396,15 +398,16 @@ Durable Roof Solutions" name="keywords">
       }
 
       .toroof img {
+        padding:15px 20px;
         height: 320px;
         overflow-y: hidden;
         object-fit: cover;
-        transition: .4s ease;
+        transition: .3s ease-in;
       }
 
-      .toroof img:hover {
+      .toroof .card:hover img {
         scale: 1.1;
-        rotate: 3deg;
+        rotate: 2deg;
       }
 
       .toroof .card-title {
@@ -554,7 +557,7 @@ Durable Roof Solutions" name="keywords">
     </section><!-- End Counts Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
+    <!-- <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
@@ -565,7 +568,8 @@ Durable Roof Solutions" name="keywords">
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
+    </section> -->
+    <!-- End Cta Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -591,91 +595,64 @@ Durable Roof Solutions" name="keywords">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p1.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p1.jpeg" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p10.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p10.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p10.webp" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p6.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p6.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p6.webp" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p4.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p4.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p4.webp" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p11.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p11.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p11.webp" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p5.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p5.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p5.webp" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p3.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p3.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p3.webp" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p8.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p8.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p8.webp" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/gallery/p2.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/gallery/p2.webp" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Roofing & Shed Work"><i class="bx bx-plus"></i></a>
-                <a href="javascript:viod(0)" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              <img src="assets/img/gallery/p2.webp" class="img-fluid" alt="project-work-img" loading="lazy">
+
             </div>
           </div>
 
@@ -931,7 +908,94 @@ Durable Roof Solutions" name="keywords">
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>About Us</h3>
+              <!-- <h3><img src="assets/img/logo2.svg" alt="" width="150px"></h3> -->
+              <div class="footer-logo">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 150 72.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-8);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="18.95" y1="2.56" x2="109.45" y2="61.73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4193af" />
+      <stop offset="1" stop-color="#4999bd" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="7.72" y1="19.73" x2="98.22" y2="78.9" xlink:href="#linear-gradient" />
+    <linearGradient id="linear-gradient-3" x1="35.86" y1="-23.3" x2="126.36" y2="35.87" xlink:href="#linear-gradient" />
+    <linearGradient id="linear-gradient-4" x1="31.65" y1="-16.87" x2="122.15" y2="42.3" xlink:href="#linear-gradient" />
+    <linearGradient id="linear-gradient-5" x1="70.95" y1="32.68" x2="74.64" y2="32.68" xlink:href="#linear-gradient" />
+    <linearGradient id="linear-gradient-6" x1="76.96" y1="32.68" x2="80.66" y2="32.68" xlink:href="#linear-gradient" />
+    <linearGradient id="linear-gradient-7" x1="70.95" y1="38.16" x2="74.64" y2="38.16" xlink:href="#linear-gradient" />
+    <linearGradient id="linear-gradient-8" x1="76.96" y1="38.16" x2="80.66" y2="38.16" xlink:href="#linear-gradient" />
+  </defs>
+  <polygon class="cls-1" points="21.27 37.32 74.75 22.66 74.64 5.36 20.53 20.65 20.87 37.44 21.27 37.32" />
+  <polygon class="cls-2" points="40.78 34.26 40.78 42.48 25.28 38.29 40.78 34.26" />
+  <polygon class="cls-3" points="130.34 36.89 76.86 22.23 76.96 4.93 131.07 20.23 130.73 37.01 130.34 36.89" />
+  <polygon class="cls-4" points="110.82 33.84 110.82 42.06 126.33 37.87 110.82 33.84" />
+  <path class="cls-5"
+    d="M5.52,66a9.51,9.51,0,0,1-3-1.58l1.84-2.58a7.34,7.34,0,0,0,4.69,1.58A4.27,4.27,0,0,0,11.2,63,1.37,1.37,0,0,0,12,61.77a1.26,1.26,0,0,0-.73-1.15A6.45,6.45,0,0,0,8.92,60a9.27,9.27,0,0,1-4.53-1.45A3.75,3.75,0,0,1,3,55.43,4,4,0,0,1,3.73,53a4.93,4.93,0,0,1,2.19-1.64,8.33,8.33,0,0,1,3.24-.59,10.35,10.35,0,0,1,3.08.46,8.92,8.92,0,0,1,2.65,1.27L13.22,55a6.7,6.7,0,0,0-3.91-1.24,4.38,4.38,0,0,0-2.11.44,1.32,1.32,0,0,0-.79,1.17,1.22,1.22,0,0,0,.68,1.1A6.59,6.59,0,0,0,9.38,57,9.09,9.09,0,0,1,14,58.56a3.85,3.85,0,0,1,1.51,3.23,4.12,4.12,0,0,1-.8,2.52A5.07,5.07,0,0,1,12.42,66a8.6,8.6,0,0,1-3.33.6A11.49,11.49,0,0,1,5.52,66Z" />
+  <path class="cls-5"
+    d="M24.81,55.59a3.73,3.73,0,0,1,1.28.79l-1.43,2.49a3.58,3.58,0,0,0-.84-.41,2.47,2.47,0,0,0-.82-.13,2.2,2.2,0,0,0-1.71.69,2.92,2.92,0,0,0-.63,2v5.19H17.27V55.56h3l.26,1.34a3.24,3.24,0,0,1,2.85-1.58A4.24,4.24,0,0,1,24.81,55.59Z" />
+  <path class="cls-5"
+    d="M27.5,54a1.86,1.86,0,0,1,0-2.66,2,2,0,0,1,1.42-.52,2.06,2.06,0,0,1,1.43.52,1.77,1.77,0,0,1,.56,1.34A1.71,1.71,0,0,1,30.38,54a2.25,2.25,0,0,1-2.88,0Zm-.27,1.58h3.4V66.24h-3.4Z" />
+  <path class="cls-5"
+    d="M40.63,66a9.35,9.35,0,0,1-3-1.58l1.83-2.58a7.34,7.34,0,0,0,4.69,1.58A4.27,4.27,0,0,0,46.31,63a1.37,1.37,0,0,0,.79-1.23,1.26,1.26,0,0,0-.73-1.15A6.45,6.45,0,0,0,44,60a9.27,9.27,0,0,1-4.53-1.45,3.74,3.74,0,0,1-1.43-3.16A4.07,4.07,0,0,1,38.84,53,4.93,4.93,0,0,1,41,51.35a8.36,8.36,0,0,1,3.24-.59,10.35,10.35,0,0,1,3.08.46A8.8,8.8,0,0,1,50,52.49L48.34,55a6.76,6.76,0,0,0-3.92-1.24,4.38,4.38,0,0,0-2.11.44,1.31,1.31,0,0,0-.78,1.17,1.2,1.2,0,0,0,.68,1.1,6.45,6.45,0,0,0,2.28.58,9.09,9.09,0,0,1,4.58,1.53,3.85,3.85,0,0,1,1.51,3.23,4.12,4.12,0,0,1-.8,2.52A5.1,5.1,0,0,1,47.54,66a8.67,8.67,0,0,1-3.33.6A11.56,11.56,0,0,1,40.63,66Z" />
+  <path class="cls-5"
+    d="M63.69,55.56V66.24H60.75L60.53,65A4.6,4.6,0,0,1,57,66.46a5.12,5.12,0,0,1-2.65-.7,4.83,4.83,0,0,1-1.8-2,6.73,6.73,0,0,1,0-5.77,4.77,4.77,0,0,1,1.8-2,5,5,0,0,1,2.65-.7,5.15,5.15,0,0,1,2,.37,4.34,4.34,0,0,1,1.56,1.1l.22-1.26Zm-4.07,7.3a2.7,2.7,0,0,0,.71-2A2.66,2.66,0,0,0,59.62,59a2.42,2.42,0,0,0-1.84-.75A2.33,2.33,0,0,0,56,59a2.73,2.73,0,0,0-.71,1.94,2.77,2.77,0,0,0,.71,2,2.36,2.36,0,0,0,1.82.75A2.41,2.41,0,0,0,59.62,62.86Z" />
+  <path class="cls-5"
+    d="M66.51,54A1.71,1.71,0,0,1,66,52.66a1.74,1.74,0,0,1,.56-1.34,2.21,2.21,0,0,1,2.85,0,1.74,1.74,0,0,1,.56,1.34A1.71,1.71,0,0,1,69.38,54,2,2,0,0,1,68,54.5,2,2,0,0,1,66.51,54Zm-.27,1.58h3.39V66.24H66.24Z" />
+  <path class="cls-5"
+    d="M87.91,52a6.58,6.58,0,0,1,2.73,2.65,8.75,8.75,0,0,1,0,8,6.58,6.58,0,0,1-2.73,2.65,8.64,8.64,0,0,1-4.1.93h-6.2V51.11h6.2A8.64,8.64,0,0,1,87.91,52Zm-1,9.9a4.52,4.52,0,0,0,1.17-3.27,4.92,4.92,0,0,0-.53-2.36A3.8,3.8,0,0,0,86,54.75a4.35,4.35,0,0,0-2.22-.55H81.15v8.95h2.66A4,4,0,0,0,86.88,61.94Z" />
+  <path class="cls-5"
+    d="M101.69,56a4.64,4.64,0,0,1,2,1.86,5.53,5.53,0,0,1,.68,2.8,8.27,8.27,0,0,1-.11,1.28H96.38a2,2,0,0,0,.88,1.33,3.23,3.23,0,0,0,1.88.51,5.09,5.09,0,0,0,1.56-.24,4,4,0,0,0,1.3-.67l1.77,1.9a6.48,6.48,0,0,1-2.15,1.3A7.72,7.72,0,0,1,99,66.5a7.18,7.18,0,0,1-3.22-.68,4.91,4.91,0,0,1-2.1-1.93,5.79,5.79,0,0,1-.73-3A5.88,5.88,0,0,1,93.64,58a5,5,0,0,1,2-2,6.23,6.23,0,0,1,3-.71A6.5,6.5,0,0,1,101.69,56Zm-4.57,2.54A2.05,2.05,0,0,0,96.4,60h4.71a2,2,0,0,0-.68-1.45A2.51,2.51,0,0,0,98.78,58,2.59,2.59,0,0,0,97.12,58.52Z" />
+  <path class="cls-5"
+    d="M108.38,65.8a4.92,4.92,0,0,1-2-1.94,6.3,6.3,0,0,1,0-5.87,5.05,5.05,0,0,1,2.06-2,6.32,6.32,0,0,1,3-.71,6.18,6.18,0,0,1,2.27.42A5.73,5.73,0,0,1,115.64,57l-1.88,2a3.06,3.06,0,0,0-2.14-.84,2.56,2.56,0,0,0-1.91.75A2.63,2.63,0,0,0,109,60.9a2.71,2.71,0,0,0,.72,2,2.55,2.55,0,0,0,1.92.74,3.06,3.06,0,0,0,2.25-.93l1.92,2a5.88,5.88,0,0,1-4.28,1.77A6.84,6.84,0,0,1,108.38,65.8Z" />
+  <path class="cls-5"
+    d="M119.28,65.78a5,5,0,0,1-2-2,6.36,6.36,0,0,1,0-5.84,4.92,4.92,0,0,1,2-1.95,6.53,6.53,0,0,1,3.1-.71,6.62,6.62,0,0,1,3.12.71,4.89,4.89,0,0,1,2,1.95,6.28,6.28,0,0,1,0,5.84,4.91,4.91,0,0,1-2,2,6.74,6.74,0,0,1-3.12.7A6.65,6.65,0,0,1,119.28,65.78Zm4.92-2.93a2.8,2.8,0,0,0,.69-2A2.76,2.76,0,0,0,124.2,59a2.33,2.33,0,0,0-1.82-.76,2.3,2.3,0,0,0-1.79.76,2.76,2.76,0,0,0-.69,1.94,2.8,2.8,0,0,0,.69,2,2.33,2.33,0,0,0,1.79.75A2.36,2.36,0,0,0,124.2,62.85Z" />
+  <path class="cls-5"
+    d="M137.76,55.59a3.68,3.68,0,0,1,1.27.79l-1.42,2.49a3.83,3.83,0,0,0-.85-.41,2.47,2.47,0,0,0-.82-.13,2.2,2.2,0,0,0-1.71.69,2.92,2.92,0,0,0-.62,2v5.19h-3.4V55.56h3l.26,1.34a3.26,3.26,0,0,1,2.86-1.58A4.24,4.24,0,0,1,137.76,55.59Z" />
+  <path class="cls-5"
+    d="M139.31,65.1l1.3-2.34a6.6,6.6,0,0,0,1.81.74,8.39,8.39,0,0,0,2,.26c.94,0,1.4-.26,1.4-.76a.62.62,0,0,0-.38-.59,3.74,3.74,0,0,0-1.3-.25,5.84,5.84,0,0,1-3.23-1,2.85,2.85,0,0,1-1.2-2.38A3,3,0,0,1,141,56.22a5.87,5.87,0,0,1,3.51-.94,9.24,9.24,0,0,1,2.38.3,6.63,6.63,0,0,1,2,.85l-1.32,2.27a5.68,5.68,0,0,0-2.87-.7q-1.65,0-1.65.78a.56.56,0,0,0,.34.5,3.41,3.41,0,0,0,1.13.26,6.88,6.88,0,0,1,3.5,1,2.8,2.8,0,0,1,1.2,2.42,3,3,0,0,1-1.32,2.58,6.2,6.2,0,0,1-3.66.94A8.56,8.56,0,0,1,139.31,65.1Z" />
+  <rect class="cls-6" x="70.95" y="30.83" width="3.69" height="3.69" />
+  <rect class="cls-7" x="76.96" y="30.83" width="3.69" height="3.69" />
+  <rect class="cls-8" x="70.95" y="36.31" width="3.69" height="3.69" />
+  <rect class="cls-9" x="76.96" y="36.31" width="3.69" height="3.69" />
+</svg>
+              </div>
               <p class="pb-3"><em>"Sri Sai Decors in Chennai is one of the leading businesses in the Roofing Contractors
                   and 2500+ Successful Projects done in Chennai. "</em></p>
               <p>
@@ -966,12 +1030,12 @@ Durable Roof Solutions" name="keywords">
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">All Roofing Contractors</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Shed Fabricators</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">False Ceiling Contractors</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Roofing Sheet Wholesalers</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">PVC Door Wholesalers</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Waterproofing Products</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">All Roofing Contractors</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">Shed Fabricators</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">False Ceiling Contractors</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">Roofing Sheet Wholesalers</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">PVC Door Wholesalers</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">Waterproofing Products</a></li>
             </ul>
           </div>
 

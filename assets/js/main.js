@@ -77,12 +77,18 @@
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
+  let logoImg = select('.logo img')
+  console.log(logoImg);
   if (selectHeader) {
     const headerScrolled = () => {
-      if (window.scrollY > 100) {
-        selectHeader.classList.add('header-scrolled')
+      if (window.scrollY > 150) {
+        selectHeader.classList.add('header-scrolled');
+        logoImg.src = 'assets/img/logo1.svg'
+        logoImg.style.width = '100px';
       } else {
-        selectHeader.classList.remove('header-scrolled')
+        selectHeader.classList.remove('header-scrolled');
+        logoImg.src = 'assets/img/logo2.svg'
+        logoImg.style.width = '130px'
       }
     }
     window.addEventListener('load', headerScrolled)
