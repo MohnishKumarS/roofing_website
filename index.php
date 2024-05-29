@@ -431,7 +431,7 @@ Durable Roof Solutions" name="keywords">
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <img src="assets/img/roof/ro1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -441,7 +441,7 @@ Durable Roof Solutions" name="keywords">
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <img src="assets/img/roof/ro3.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -451,7 +451,7 @@ Durable Roof Solutions" name="keywords">
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <img src="assets/img/roof/ro6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -461,7 +461,7 @@ Durable Roof Solutions" name="keywords">
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <img src="assets/img/roof/ro2.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -472,7 +472,7 @@ Durable Roof Solutions" name="keywords">
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <img src="assets/img/roof/ro8.webp" class="card-img-top" alt="...">
               <div class="card-body">
@@ -482,7 +482,7 @@ Durable Roof Solutions" name="keywords">
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <img src="assets/img/roof/gr22.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -493,7 +493,7 @@ Durable Roof Solutions" name="keywords">
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <img src="assets/img/roof/r11.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -504,7 +504,7 @@ Durable Roof Solutions" name="keywords">
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <img src="assets/img/roof/s17.jpg" class="card-img-top" alt="...">
               <div class="card-body">
