@@ -47,6 +47,7 @@ Durable Roof Solutions" name="keywords">
   <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
   <!-- Favicons -->
   <link href="assets/img/icon.svg" rel="icon" sizes="15x15">
+  <link href="assets/img/icon.svg" rel="icon" sizes="30x30">
 
   <!-- Vendor CSS Files -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -63,8 +64,6 @@ Durable Roof Solutions" name="keywords">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
-
-  <!-- <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LhuZcoQyAdg-UTemJpcveQM1xazGtm-Grc0SvYMPVVPODw4Bzzca4aG_TW2S-Pc4r8XtfGq18dJAEs-oZ2B2HvCeqt4VJzXX_ivdVET7ykkUHonH7_tKXh5AK-8eLhAG8c2H561Ilo8dNobae4rQ7y0NqzVBD3ZCzGf2jF50M3rGOxMpN53EqTT94wkXlvrvB74HcZoEJWeWmCYFQ9UQsGf0ifbJ6z_U7supL98seAs5UoNGYUoP38dLwHAl2Rc_j0UifUFTzC-H4luC9YaVAGnu3mUKhpG5IOsVTMPWK2kyESxtcpsfNEmj4KERNhIq" charset="UTF-8"></script> -->
 </head>
 
 <body>
@@ -76,8 +75,8 @@ Durable Roof Solutions" name="keywords">
       <div class="logo">
         <!-- <h1 class="text-light"><a href="index.html"><span>Sri Sai Decors</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.php">
-          <img src="assets/img/logo1.svg" alt="" width="150px" height="100px">
+        <a href="index.php" aria-label="srisaidecors logo">
+          <img src="assets/img/logo1.svg" alt="srisaidecors logo" width="150px" height="100px">
         </a>
       </div>
 
@@ -109,37 +108,36 @@ Durable Roof Solutions" name="keywords">
             <ul>
               <li>
                 <strong>Roofing types</strong>
-                <a href="javascript:void(0)">Corrugated Roofing</a>
-                <a href="javascript:void(0)">Aluminum Roofing Sheet</a>
-                <a href="javascript:void(0)">Polycarbonate Roofing</a>
-                <a href="javascript:void(0)">Bamboo Roofing Sheet</a>
+                <p href="javascript:void(0)">Corrugated Roofing</p>
+                <p>Aluminum Roofing Sheet</p>
+                <p>Polycarbonate Roofing</p>
+                <p>Bamboo Roofing Sheet</p>
               </li>
               <li>
                 <strong>Corrugated Roofing</strong>
-                <a href="javascript:void(0)">Galvanised steel sheet </a>
-                <a href="javascript:void(0)">Polyester painted sheet </a>
-                <a href="javascript:void(0)">Polyvinyl Chloride (PVC) Plastisol</a>
-                <!-- <a href="javascript:void(0)">Bitumen sheets</a> -->
+                <p>Galvanised steel sheet </p>
+                <p>Polyester painted sheet </p>
+                <p>Polyvinyl Chloride (PVC) Plastisol</p>
               </li>
               <li>
                 <strong>Others</strong>
-                <a href="javascript:void(0)">Plastic Roofing Sheet</a>
-                <a href="javascript:void(0)">Fabrication Service</a>
-                <a href="javascript:void(0)">Tensile Membrane Structure</a>
-                <a href="javascript:void(0)">Vinyl Wood Flooring</a>
+                <p>Plastic Roofing Sheet</p>
+                <p>Fabrication Service</p>
+                <p>Tensile Membrane Structure</p>
+                <p>Vinyl Wood Flooring</p>
               </li>
               <li>
                 <strong>Sheds</strong>
-                <a href="javascript:void(0)">Terrace shed</a>
-                <a href="javascript:void(0)">Factory & Industrial shed</a>
-                <a href="javascript:void(0)">Godown & Carparking shed</a>
-                <a href="javascript:void(0)">Goat & Diary farm shed</a>
+                <p>Terrace shed</p>
+                <p>Factory & Industrial shed</p>
+                <p>Godown & Carparking shed</p>
+                <p>Goat & Diary farm shed</p>
               </li>
               <li>
                 <strong>Doors</strong>
-                <a href="javascript:void(0)">PVC partition cupboard</a>
-                <a href="javascript:void(0)">PVC Bathroom door</a>
-                <a href="javascript:void(0)">Aluminium Partition & Fabrication</a>
+                <p>PVC partition cupboard</p>
+                <p>PVC Bathroom door</p>
+                <p>Aluminium Partition & Fabrication</p>
               </li>
             </ul>
           </li>
@@ -160,7 +158,7 @@ Durable Roof Solutions" name="keywords">
       <h1>Welcome to Srisaidecors</h1>
       <h2>A smart Choice for Your Residential Roofing solutions & services </h2>
       <h2>Get Your Roofing Project Started Today!</h2>
-      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+      <a href="#about"  aria-label="scrolldown btn" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
   </section><!-- End Hero -->
 
@@ -189,7 +187,7 @@ Durable Roof Solutions" name="keywords">
                   business</strong> , our customers remain our first priority. Every building that we design,
                 manufacture and erect is created with the satisfaction of the future occupants and owners in mind..
               </p>
-              <a href="#" class="about-btn">About us <i class="bx bx-chevron-right"></i></a>
+              <a href="#"  aria-label="about us"> class="about-btn">About us <i class="bx bx-chevron-right"></i></a>
             </div>
           </div>
           <div class="col-xl-7 d-flex align-items-stretch">
@@ -258,7 +256,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s1.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>All Roofing Contractors</a></h1>
+              <h3 class="title">All Roofing Contractors</h3>
               <p class="description"> Roofers replace, repair, and install the roofs of buildings, using a variety of
                 materials, including shingles, bitumen, and metal.</p>
             </div>
@@ -270,7 +268,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s2.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>Factory Shed Fabricators</a></h1>
+              <h3 class="title">Factory Shed Fabricators</h3>
               <p class="description"> They function in many ways – as factory sheds, warehouses, agriculture buildings,
                 poultry sheds, and so on.</p>
             </div>
@@ -282,7 +280,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s4.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>House Terrace Work</a></h1>
+              <h3 class="title">House Terrace Work</h3>
               <p class="description">The process of covering an outdoor space or patio roof with roofing material </p>
             </div>
           </div>
@@ -293,7 +291,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s5.webp" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>PVC Door Wholesale</a></h1>
+              <h3 class="title">PVC Door Wholesale</h3>
               <p class="description">It contains a plasticizer which makes the material soft and flexible. As compared
                 to traditional wooden doors.</p>
             </div>
@@ -305,7 +303,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s6.webp" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>PVC Partition Cupboard</a></h1>
+              <h3 class="title">PVC Partition Cupboard</h3>
               <p class="description">It has very low maintenance and easy to install. It is fire retardant and highly
                 durable as much as 100 years.</p>
             </div>
@@ -317,7 +315,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s13.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>Aluminium Partition Fabrication</a></h1>
+              <h3 class="title">Aluminium Partition Fabrication</h3>
               <p class="description">Aluminum partition using aluminum alloy frame to be adornment and fixed material,
                 the whole glass (monolayer or double layer)</p>
             </div>
@@ -329,7 +327,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s9.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>False Ceiling</a></h1>
+              <h3 class="title">False Ceiling</h3>
               <p class="description">A false ceiling is a fitted ceiling that hangs below the original ceiling of a room
                 or home.</p>
             </div>
@@ -341,7 +339,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s10.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>Tensile Membrane Sheets</a></h1>
+              <h3 class="title">Tensile Membrane Sheets</h3>
               <p class="description">Fiber roofing sheets are popularly used for residential roofing due to their
                 lightweight and durable nature</p>
             </div>
@@ -353,7 +351,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s16.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>Folding Arm Awning</a></h1>
+              <h3 class="title">Folding Arm Awning</h3>
               <p class="description">They are a modern style of awning that offers sun protection over large areas of space.</p>
             </div>
           </div>
@@ -364,7 +362,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s14.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>Vinyl Wood Flooring</a></h1>
+              <h3 class="title">Vinyl Wood Flooring</h3>
               <p class="description">It is durable and long-lasting option for your home.With proper care and maintenance, it can last up to 20 years or more.</p>
             </div>
           </div>
@@ -375,7 +373,7 @@ Durable Roof Solutions" name="keywords">
               <div class="service-img">
                 <img src="assets/img/service/s12.jpg" alt="" class="img-fluid">
               </div>
-              <h1 class="title"><a>Wall Panel</a></h1>
+              <h3 class="title">Wall Panel</h3>
               <p class="description">single piece of material, usually flat and cut into a rectangular shape and exposed
                 covering for a wall.</p>
             </div>
@@ -413,7 +411,13 @@ Durable Roof Solutions" name="keywords">
       .toroof .card-title {
         font-weight: 700;
         margin-top: 10px;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        color: #111;
+      }
+      .toroof .card-text{
+        font-size: 15px;
+        line-height: 28px;
+        color: #444;
       }
     </style>
     <section class="toroof">
@@ -431,7 +435,7 @@ Durable Roof Solutions" name="keywords">
             <div class="card">
               <img src="assets/img/roof/ro1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-title">Corrugated roofing sheet</h1>
+                <h3 class="card-title">Corrugated roofing sheet</h3>
                 <p class="card-text">Corrugated sheets have a UV Protection layer, which ensures they don't go brittle
                   and provide superior light transmission and unrivalled clarity for many years.</p>
               </div>
@@ -441,7 +445,7 @@ Durable Roof Solutions" name="keywords">
             <div class="card">
               <img src="assets/img/roof/ro3.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-title">Polycarbonate Roofing Sheet</h1>
+                <h3 class="card-title">Polycarbonate Roofing Sheet</h3>
                 <p class="card-text">Polycarbonate is a very strong and resilient thermoplastic material. Polycarbonate
                   is also very lightweight and capable of withstanding extreme temperatures, either hot or cold.</p>
               </div>
@@ -451,7 +455,7 @@ Durable Roof Solutions" name="keywords">
             <div class="card">
               <img src="assets/img/roof/ro6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-title">Fiber Reinforced Plastic Roofing</h1>
+                <h3 class="card-title">Fiber Reinforced Plastic Roofing</h3>
                 <p class="card-text">FRP roof is the more strengthened, safty, and more econimal greenhouse panel with
                   the properties of waterproof, good light ...</p>
               </div>
@@ -461,7 +465,7 @@ Durable Roof Solutions" name="keywords">
             <div class="card">
               <img src="assets/img/roof/ro2.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-title">Polyvinyl Chloride (PVC) Roofing</h1>
+                <h3 class="card-title">Polyvinyl Chloride (PVC) Roofing</h3>
                 <p class="card-text">PVC roofing is a great option for those who are looking for an energy-efficient and
                   low-maintenance roofing solution. PVC single ply membranes have a high reflectivity index, meaning
                   they reflect most of the sun's heat and UV radiation.</p>
@@ -472,7 +476,7 @@ Durable Roof Solutions" name="keywords">
             <div class="card">
               <img src="assets/img/roof/ro8.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-title">Metal Roofing Sheet</h1>
+                <h3 class="card-title">Metal Roofing Sheet</h3>
                 <p class="card-text">Aluminum has much better corrosion resistance than steel products, especially in
                   harsh coastal environments where saltwater can wreak havoc on a metal roofing system.</p>
               </div>
@@ -482,7 +486,7 @@ Durable Roof Solutions" name="keywords">
             <div class="card">
               <img src="assets/img/roof/gr22.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-title">Plastic Roofing Sheet</h1>
+                <h3 class="card-title">Plastic Roofing Sheet</h3>
                 <p class="card-text">Plastic sheet is the least preferred roofing option available in the market. Being
                   less durable, they are suitable only for the construction of garden sheds and temporary structures.
                 </p>
@@ -493,7 +497,7 @@ Durable Roof Solutions" name="keywords">
             <div class="card">
               <img src="assets/img/roof/r11.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-title">Membrane Tensile Roofing</h1>
+                <h3 class="card-title">Membrane Tensile Roofing</h3>
                 <p class="card-text"> Tensile membrane structures may also be used as complete buildings, with a few
                   common applications being sports facilities, warehousing and storage buildings, and exhibition venues.
                 </p>
@@ -504,7 +508,7 @@ Durable Roof Solutions" name="keywords">
             <div class="card">
               <img src="assets/img/roof/s17.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h1 class="card-title">Folding Arm Roofing</h1>
+                <h3 class="card-title">Folding Arm Roofing</h3>
                 <p class="card-text"> We bring forth our vast industrial experience and expertise in this business, involved in trading and wholesaling a quality range of Folding Arm Awning. This product has good appearance.
                 </p>
               </div>
@@ -757,12 +761,12 @@ Durable Roof Solutions" name="keywords">
             <div class="member" data-aos="fade-up">
               <div class="pic"><img src="assets/img/raji.jpeg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>K.S. Raji</h4>
+                <h3>K.S. Raji</h3>
                 <span>Founder</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-whatsapp"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href="#" aria-label="social links"><i class="bi bi-whatsapp"></i></a>
+                  <a href="#" aria-label="social links"><i class="bi bi-facebook"></i></a>
+                  <a href="#" aria-label="social links"><i class="bi bi-instagram"></i></a>
 
                 </div>
               </div>
@@ -834,7 +838,7 @@ Durable Roof Solutions" name="keywords">
         <div class="row">
 
           <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.601740729333!2d80.0939454!3d12.9973054!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a528b798b80dc2b%3A0x59a924432ecd0d7!2sSri%20Sai%20Decors%20%26%20Enterprises!5e0!3m2!1sen!2sin!4v1694753835278!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen loading="lazy"></iframe>
+            <iframe class="mb-4 mb-lg-0" title="shop-location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.601740729333!2d80.0939454!3d12.9973054!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a528b798b80dc2b%3A0x59a924432ecd0d7!2sSri%20Sai%20Decors%20%26%20Enterprises!5e0!3m2!1sen!2sin!4v1694753835278!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen loading="lazy"></iframe>
 
           </div>
           <style>
@@ -870,7 +874,7 @@ Durable Roof Solutions" name="keywords">
           </style>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form">
+            <form action="forms/contact.php" method="post" >
               <div class="contacts">
                 <div class="row">
                   <div class="col-md-6 form-group">
@@ -1007,11 +1011,11 @@ Durable Roof Solutions" name="keywords">
                 <strong>Email:</strong> sailoge786@gmail.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="twitter" aria-label="social links"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook" aria-label="social links"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram" aria-label="social links"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus" aria-label="social links"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin" aria-label="social links"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -1030,21 +1034,21 @@ Durable Roof Solutions" name="keywords">
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">All Roofing Contractors</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">Shed Fabricators</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">False Ceiling Contractors</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">Roofing Sheet Wholesalers</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">PVC Door Wholesalers</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:void(0)">Waterproofing Products</a></li>
+              <li><i class="bx bx-chevron-right"></i> <p class="my-0">All Roofing Contractors</p></li>
+              <li><i class="bx bx-chevron-right"></i> <p class="my-0">Shed Fabricators</p></li>
+              <li><i class="bx bx-chevron-right"></i> <p class="my-0">False Ceiling Contractors</p></li>
+              <li><i class="bx bx-chevron-right"></i> <p class="my-0">Roofing Sheet Wholesalers</p></li>
+              <li><i class="bx bx-chevron-right"></i> <p class="my-0">PVC Door Wholesalers</p></li>
+              <li><i class="bx bx-chevron-right"></i> <p class="my-0">Waterproofing Products</p></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Subscribe to our newsletter and stay updated!</p>
-            <form action="" method="post">
+            <!-- <form action="" method="post">
               <input type="email" name="email" placeholder="Your Email"><input type="submit" value="Subscribe">
-            </form>
+            </form> -->
 
           </div>
 
@@ -1060,7 +1064,7 @@ Durable Roof Solutions" name="keywords">
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" aria-label="scrolltop btn" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

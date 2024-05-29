@@ -248,6 +248,18 @@ h6 {
   color: #67b0d1;
 }
 
+.navbar .megamenu ul li p,
+.navbar .megamenu ul li:hover>p {
+  color: rgba(var(--color-white-rgb), 0.5);
+  background: none;
+  padding: 8px 10px;
+  white-space: initial;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-left: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
 .navbar .megamenu ul li a,
 .navbar .megamenu ul li:hover>a {
   color: rgba(var(--color-white-rgb), 0.5);
@@ -258,7 +270,7 @@ h6 {
   white-space: initial;
 }
 
-.navbar .megamenu ul li a:hover,
+.navbar .megamenu ul li p:hover,
 .navbar .megamenu ul li .active,
 .navbar .megamenu ul li .active:hover {
   color: #67b0d1;
@@ -721,11 +733,9 @@ section {
 
 .services .title {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 8px;
   font-size: 18px;
-}
-
-.services .title a {
   color: #111;
 }
 
